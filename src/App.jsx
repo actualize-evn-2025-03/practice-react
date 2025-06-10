@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Welcome from './components/Welcome'
+import Counter from './components/Counter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,11 +31,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Welcome name="Leon" />
-      <Welcome name="Kelvin" />
-      <Welcome name="Amelia" />
-      <Welcome name="Marylin" />
-      <Welcome name="Michal" />
-      <Welcome name="Faigy" />
+      <Counter />
     </>
   )
 }
