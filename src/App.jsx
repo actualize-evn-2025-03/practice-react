@@ -2,7 +2,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import './Welcome'
 import Welcome from './Welcome'
 
 function App() {
@@ -30,7 +29,12 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <Welcome />
+      <Welcome name="Leon" />
+      <Welcome name="Kelvin" />
+      <Welcome name="Amelia" />
+      <Welcome name="Marylin" />
+      <Welcome name="Michal" />
+      <Welcome name="Faigy" />
     </>
   )
 }

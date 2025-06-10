@@ -1,7 +1,7 @@
-function Welcome() {
+function Welcome(props) {
   return (
     <div>
-      <h1>Hello from the Welcome component...</h1>
+      <h1>Hello {props.name}</h1>
     </div>
   )
 }
