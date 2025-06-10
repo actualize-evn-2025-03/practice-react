@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Welcome from './components/Welcome'
 import Counter from './components/Counter'
+import NameForm from './components/NameForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,7 +32,12 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Welcome name="Leon" />
+      <br></br>
       <Counter />
+      <br></br>
+      <hr />
+      <br></br>
+      <NameForm />
     </>
   )
 }
